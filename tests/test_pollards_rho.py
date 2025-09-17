@@ -39,3 +39,11 @@ def test_one():
     factor = PollardsRho(num).factorize()
 
     assert factor == 1
+
+
+def test_large_composite_number():
+    num = 488012747 * 832406063
+    factor = PollardsRho(num).factorize()
+
+    assert num % factor == 0
+    assert factor not in [1, num]  # factor should be non-trivial
