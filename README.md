@@ -1,6 +1,6 @@
 # Pollard's Rho Python
 A simple Python implementation of Pollard's Rho algorithm for integer factorization.
-
+## Expected Time Complexity $$O(\sqrt{p} \cdot \log n)$$
 ```python
 # Pollard's Rho Algorithm for Integer Factorization
 import random
