@@ -34,3 +34,5 @@ class PollardsRho:
 
         return d
 ```
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rho-example-animated.gif" width="400">
